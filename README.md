@@ -1,2 +1,2 @@
 # lenex-backend
-Lend Exchange Backend
+Lenex ICO Backend

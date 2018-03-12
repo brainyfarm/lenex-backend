@@ -1,0 +1,35 @@
+{
+  "name": "lenex-backend",
+  "version": "1.0.0",
+  "description": "Lenex ICO Backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:dev": "babel-watch **.js server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-oakinseye/lenex-backend.git"
+  },
+  "keywords": [],
+  "author": "Olawale Akinseye <brainyfarm@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-oakinseye/lenex-backend/issues"
+  },
+  "homepage": "https://github.com/andela-oakinseye/lenex-backend#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-watch": "^2.0.7"
+  }
+}
